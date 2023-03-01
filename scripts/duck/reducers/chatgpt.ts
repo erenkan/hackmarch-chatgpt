@@ -6,7 +6,7 @@ type ChatGPT = {
 };
 
 const initialState: ChatGPT = {
-  API_KEY: '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'
+  API_KEY: ''
 };
 
 export default function (state = initialState, action) {
