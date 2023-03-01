@@ -39,6 +39,12 @@
       },
       "height": null,
       "width": null
+    },
+    "&-btnSaveKey": {
+      "backgroundColor": {
+        "normal": "${green}",
+        "pressed": "${greenDarker}"
+      }
     }
   }
 }

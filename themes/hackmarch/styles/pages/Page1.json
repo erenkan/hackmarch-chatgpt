@@ -1,0 +1,60 @@
+{
+  "#page1": {
+    "&-imgLogo": {
+      "imageFillType": "ASPECTFIT",
+      "width": 70.45,
+      "height": 89.77,
+      "image": "chatgpt_logo.png",
+      "flexProps": {
+        "alignSelf": "CENTER"
+      }
+    },
+    "&-wrapper": {
+      "flexProps": {
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER"
+      }
+    },
+    "&-txtApiKey": {
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-lblWelcome": {
+      "height": 50,
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "textAlignment": "MIDCENTER"
+    },
+    "&-flTxtWrapper": {
+      "height": 60,
+      "borderColor": "${txtBorder}",
+      "backgroundColor": "${txtGrey}",
+      "borderWidth": 1,
+      "borderRadius": 4,
+      "paddingLeft": 10,
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      }
+    },
+    "&-tvWelcome": {
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "textAlignment": "MIDCENTER",
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-lblNoApiKey": {
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "textAlignment": "MIDRIGHT",
+      "font": {
+        "size": 13
+      },
+      "textColor": "${greenDarker}"
+    }
+  }
+}

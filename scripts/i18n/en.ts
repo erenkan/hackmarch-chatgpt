@@ -54,5 +54,6 @@ export default {
   sayHello: 'Say Hello',
   openModal: 'Open a Modal Page',
   printLanguageExample: 'Print language example',
-  option: 'Option'
+  option: 'Option',
+  save: 'Save'
 };

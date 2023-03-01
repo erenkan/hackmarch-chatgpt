@@ -1,0 +1,12 @@
+{
+  ".sf": {
+    "&-textBox": {
+      "borderColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-statusBar": {
+      "android": {
+        "color": "${purple}"
+      }
+    }
+  }
+}

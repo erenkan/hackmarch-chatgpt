@@ -52,5 +52,6 @@ export default {
   sayHello: 'Merhaba de',
   openModal: 'Modal sayfa aç',
   printLanguageExample: 'Dil örneğini yazdır',
-  option: 'Ayar'
+  option: 'Ayar',
+  save: 'Kaydet'
 };

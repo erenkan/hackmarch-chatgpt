@@ -1,0 +1,54 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem #page2-lviChat",
+			"id": "0119-4760-e77d-258e",
+			"props": {
+				"children": [
+					"4b32-33f9-7151-3045"
+				],
+				"name": "lviChat",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 29.03,
+				"top": 574.19
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page2-flLviWrapper",
+			"id": "4b32-33f9-7151-3045",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ab68-f17b-2c06-3664"
+				],
+				"name": "flLviWrapper",
+				"parent": "0119-4760-e77d-258e"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #page2-tvChat",
+			"id": "ab68-f17b-2c06-3664",
+			"oldName": "tvWelcome",
+			"props": {
+				"children": [],
+				"html": "<div style=\"line-height: 13px; font-size: 11.2903px; color: rgb(212, 212, 212);\"><span style=\"font-size: 15px; color: rgb(212, 212, 212); font-family: SFProText-Medium; line-height: 18px;\"><span style=\"white-space: pre; font-size: 15px; line-height: 18px; font-family: SFProText-Medium; color: rgb(212, 212, 212);\">Ask</span><span style=\"white-space: pre-wrap; font-size: 15px; line-height: 18px; font-family: SFProText-Medium; color: rgb(212, 212, 212);\"> me something!</span></span><span style=\"white-space: pre; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-size: 11.2903px; line-height: 13px; color: rgb(212, 212, 212);\">\n</span></div>",
+				"name": "tvChat",
+				"parent": "4b32-33f9-7151-3045",
+				"text": "Ask me something!\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<div style=\"line-height: 13px; font-size: 11.2903px; color: rgb(212, 212, 212);\"><span style=\"font-size: 15px; color: rgb(212, 212, 212); font-family: SFProText-Medium; line-height: 18px;\"><span style=\"white-space: pre; font-size: 15px; line-height: 18px; font-family: SFProText-Medium; color: rgb(212, 212, 212);\">Ask</span><span style=\"white-space: pre-wrap; font-size: 15px; line-height: 18px; font-family: SFProText-Medium; color: rgb(212, 212, 212);\"> me something!</span></span><span style=\"white-space: pre; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-size: 11.2903px; line-height: 13px; color: rgb(212, 212, 212);\">\n</span></div>",
+				"text": "Ask me something!\n"
+			}
+		}
+	]
+}

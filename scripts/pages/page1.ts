@@ -2,7 +2,7 @@ import Page1Design from 'generated/pages/page1';
 import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
-import  i18n  from '@smartface/i18n';
+import i18n from '@smartface/i18n';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 
@@ -16,8 +16,7 @@ export default class Page1 extends Page1Design {
   }
 
   setTexts() {
-    this.btnNext.text = i18n.instance.t('nextPage');
-    this.lbl.text = i18n.instance.t('runtimeLabel');
+    this.btnSaveKey.text = i18n.instance.t('save');
   }
 
   /**
@@ -28,7 +27,7 @@ export default class Page1 extends Page1Design {
     super.onShow();
     console.log('[page1] onShow');
     this.disposeables.push(
-      this.btnNext.on('press', () => {
+      this.btnSaveKey.on('press', () => {
         this.router.push('page2', { message: i18n.instance.t('helloWorld') });
       })
     );
@@ -42,9 +41,6 @@ export default class Page1 extends Page1Design {
     this.setTexts();
     console.log('[page1] onLoad');
     this.headerBar.leftItemEnabled = false;
-    this.addChild(this.lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
-      return { ...userProps };
-    });
   }
 
   onHide(): void {

@@ -1,7 +1,10 @@
 {
-    "mainColor": "#00a1f1",
-    "mainLight": "#66d2ff",
-    "mainDark": "#0073be",
-    "mainTextColor": "rgba(210, 210, 210, 1)",
-    "white": "#ffffff"
+  "mainColor": "#00a1f1",
+  "mainLight": "#66d2ff",
+  "mainDark": "#0073be",
+  "mainTextColor": "rgba(210, 210, 210, 1)",
+  "white": "#ffffff",
+  "green": "#0FA47F",
+  "greenDarker": "#00897B",
+  "bgDark": "#1E1E1E"
 }

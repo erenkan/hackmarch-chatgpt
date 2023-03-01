@@ -1,0 +1,74 @@
+{
+  "#page2": {
+    "&-txtPrompt": {
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "marginRight": 35,
+      "backgroundColor": "${txtGrey}"
+    },
+    "&-iconSend": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "right": 5,
+      "font": {
+        "family": "ionicons",
+        "style": null,
+        "italic": false,
+        "bold": false,
+        "size": 25
+      },
+      "glyph": "",
+      "textColor": "${grey}",
+      "width": 30,
+      "height": 30,
+      "top": 15,
+      "bottom": 15
+    },
+    "&-lvMain": {
+      "flexProps": {
+        "flexGrow": 1,
+        "alignSelf": "STRETCH"
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-tvChat": {
+      "flexProps": {
+        "alignSelf": "STRETCH",
+        "flexGrow": 1
+      },
+      "textAlignment": "TOPCENTER",
+      "textColor": "${white}",
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "font": {
+        "style": "Medium"
+      },
+      "height": null
+    },
+    "&-flLviWrapper": {
+      "borderRadius": 4,
+      "borderColor": "${txtBorder}",
+      "backgroundColor": "${txtGrey}",
+      "borderWidth": 1,
+      "flexProps": {
+        "alignItems": "CENTER",
+        "flexGrow": 1
+      },
+      "marginTop": 10,
+      "marginBottom": 10,
+      "paddingLeft": 10,
+      "paddingRight": 10
+    },
+    "&-lviChat": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": 1
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

@@ -11,5 +11,11 @@
   "editor.autoSave": "off",
   "application.confirmExit": "ifRequired",
 "workspace.preserveWindow": true,
-"explorer.autoReveal": true
+"explorer.autoReveal": true,
+"[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
 }

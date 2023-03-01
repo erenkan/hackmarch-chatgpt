@@ -22,8 +22,7 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -35,8 +34,7 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -46,13 +44,12 @@
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "e891b86d",
-				"title": "Page1"
+				"title": "Login"
 			},
 			"type": "HeaderBar",
 			"userProps": {
-				"title": "Page1"
-			},
-			"degree": 1
+				"title": "Login"
+			}
 		},
 		{
 			"className": ".sf-flexLayout #page1-wrapper",
@@ -60,54 +57,106 @@
 			"oldName": "flexLayout1",
 			"props": {
 				"children": [
-					"aa54-c8cf-0db8-a806"
+					"a84d-1d41-1424-ffba",
+					"54f3-7e00-7019-11ad",
+					"2f69-080d-e6df-df12",
+					"fff2-5d6e-8f99-2496"
 				],
 				"name": "flWrapper",
 				"parent": "e891b86d"
 			},
 			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-button #page1-btnNext",
+			"className": ".sf-imageView #page1-imgLogo",
+			"id": "a84d-1d41-1424-ffba",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgLogo",
+				"parent": "58c0-c2a0-1c02-c1c9"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #page1-tvWelcome",
+			"id": "54f3-7e00-7019-11ad",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<div style=\"line-height: 13px; white-space: pre; font-size: 11.2903px; color: rgb(212, 212, 212);\"><span style=\"font-size: 15px; color: rgb(212, 212, 212); font-family: SFProText-Medium; line-height: 18px;\">Welcome to ChatGPT\n<span style=\"white-space: pre-wrap; font-size: 15px; line-height: 18px; color: rgb(212, 212, 212); font-family: SFProText-Medium;\">Get your OpenAI API Key to continue</span></span><span style=\"font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-size: 11.2903px; line-height: 13px; color: rgb(212, 212, 212);\">\n</span></div>",
+				"name": "tvWelcome",
+				"parent": "58c0-c2a0-1c02-c1c9",
+				"text": "Welcome to ChatGPT\nGet your OpenAI API Key to continue\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<div style=\"line-height: 13px; white-space: pre; font-size: 11.2903px; color: rgb(212, 212, 212);\"><span style=\"font-size: 15px; color: rgb(212, 212, 212); font-family: SFProText-Medium; line-height: 18px;\">Welcome to ChatGPT\n<span style=\"white-space: pre-wrap; font-size: 15px; line-height: 18px; color: rgb(212, 212, 212); font-family: SFProText-Medium;\">Get your OpenAI API Key to continue</span></span><span style=\"font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-size: 11.2903px; line-height: 13px; color: rgb(212, 212, 212);\">\n</span></div>",
+				"text": "Welcome to ChatGPT\nGet your OpenAI API Key to continue\n"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flTxtWrapper",
+			"id": "2f69-080d-e6df-df12",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"43ad-8424-41dd-9309"
+				],
+				"name": "flTxtWrapper",
+				"parent": "58c0-c2a0-1c02-c1c9"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textBox #page1-txtApiKey",
+			"id": "43ad-8424-41dd-9309",
+			"oldName": "textBox1",
+			"props": {
+				"children": [],
+				"name": "txtApiKey",
+				"parent": "2f69-080d-e6df-df12"
+			},
+			"type": "TextBox",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-lblNoApiKey",
+			"id": "fff2-5d6e-8f99-2496",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblNoApiKey",
+				"parent": "58c0-c2a0-1c02-c1c9",
+				"text": "I don't have API Key"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "I don't have API Key"
+			}
+		},
+		{
+			"className": ".sf-button #page1-btnSaveKey",
 			"id": "9e49-7873-afba-472b",
+			"oldName": "btnNext",
 			"props": {
 				"autoHeight": 50.561797752808985,
 				"children": [],
-				"name": "btnNext",
+				"name": "btnSaveKey",
 				"parent": "e891b86d",
-				"text": "Next Page",
+				"text": "Save",
 				"usePageVariable": true
 			},
 			"type": "Button",
 			"userProps": {
 				"autoHeight": 50.561797752808985,
 				"testId": "93f6-Tngc",
-				"text": "Next Page",
+				"text": "Save",
 				"usePageVariable": true
-			},
-			"degree": 1
-		},
-		{
-			"className": ".sf-label #page1-lbl",
-			"id": "aa54-c8cf-0db8-a806",
-			"props": {
-				"autoHeight": 39.325842696629216,
-				"children": [],
-				"name": "lbl",
-				"parent": "58c0-c2a0-1c02-c1c9",
-				"text": "Page1",
-				"usePageVariable": true
-			},
-			"type": "Label",
-			"userProps": {
-				"autoHeight": 39.325842696629216,
-				"text": "Page1",
-				"usePageVariable": true,
-				"testId": "_tdYNDkDX"
-			},
-			"degree": 2
+			}
 		}
 	]
 }
